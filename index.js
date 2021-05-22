@@ -8,7 +8,7 @@ const express = require("express");
 const app = express();
 const path = require("path");
 const router = express.Router();
-const request = require('request');
+// const request = require('request');
 
 var achievements1, achievements2, total
 
