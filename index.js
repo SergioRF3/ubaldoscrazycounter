@@ -31,9 +31,9 @@ router.get("/", (req, res) => {
 });
 
 app.use("/", router);
-app.listen(process.env.port || 5000);
+app.listen(process.env.PORT, '0.0.0.0');
 
-console.log("Running at Port 5000");
+console.log("Running at Port 000");
 
 // function getAchievements(achievement) {
 //     return count = Object.entries(achievement.playerstats.achievements).length;
