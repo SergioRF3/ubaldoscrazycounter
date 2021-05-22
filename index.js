@@ -33,7 +33,7 @@ router.get("/", (req, res) => {
 app.use("/", router);
 app.listen(process.env.port || 5000);
 
-console.log("Running at Port 3000");
+console.log("Running at Port 5000");
 
 // function getAchievements(achievement) {
 //     return count = Object.entries(achievement.playerstats.achievements).length;
