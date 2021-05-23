@@ -2,7 +2,7 @@ var url1='http://api.steampowered.com/ISteamUserStats/GetUserStatsForGame/' +
 'v0002/?appid=250900&key=424CF0DAB58DA8B0F8A8B9A037AA93E5&steamid=76561198079199657';
 
 var url2='http://api.steampowered.com/ISteamUserStats/GetUserStatsForGame/' +
-'v0002/?appid=250900&key=424CF0DAB58DA8B0F8A8B9A037AA93E5&steamid=76561198114457291';
+'v0002/?appid=250900&key=424CF0DAB58DA8B0F8A8B9A037AA93E5&steamid=76561198118721750';
 
 const express = require("express");
 const app = express();
