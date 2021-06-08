@@ -10,6 +10,7 @@ const app = express();
 const path = require("path");
 const request = require('request');
 const router = express.Router();
+const totalAchievements = 637;
 
 var achievements1, achievements2, total
 
@@ -20,7 +21,7 @@ router.get("/", (req, res) => {
    callAPI(url1,achievements1).then(achievements1 => {
        callAPI(url2, achievements2).then(achievements2 =>{
           total = achievements2 - achievements1
-          res.render("index", {total: total});
+          res.render("index", {total: total, ruiz: totalAchievements-achievements1, carlos: totalAchievements-achievements2});
        });
    });
 });
